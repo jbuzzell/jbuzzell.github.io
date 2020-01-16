@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+body{
+    margin: 0;
+    font-family: "Heebo", sans-serif;
+}
+h1{
+    font-family: "Heebo", sans-serif;
+    font-weight: 500;
+    font-size: 4rem;
+    margin: 0;
+}
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+}
+h3{
+    font-family: "Heebo", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    margin: 0;
+}
+h4{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+}
+h5{
+    font-family: "Heebo", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 1rem auto;
+}
+h6{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.25rem;
+    margin: 1rem auto;
+}
+img.face-pic {
+    width: 350px;
+    height: 350px;
+}
+div.nameplate {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 3.5rem;
+}
+div.fullpage-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 550px;
+    margin: auto;
+}
+div.body-copy{
+    width: 65%;
+    margin: auto;
+}
+div.table-split{
+    display: flex;
+    margin: 2rem auto;
+}
+div.table-split div{
+    width: 50%;
+}
+.section-header{
+    margin: 3.5rem auto !important;
+}
+.body-copy p{
+    margin: 2.5rem auto;
+}
+.marketing-img{
+    height: 500px;
+    float: left;
+}
+.img-with-text{
+    display: flex;
+    align-items: center;
+}
+.img-margin{
+    margin-right: 3.5rem;
+}
+.project{
+    margin: 2rem auto;
+}
