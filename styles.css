@@ -86,3 +86,13 @@ div.table-split div{
 .project{
     margin: 3.5rem auto;
 }
+.img-row{
+    display: inline-table;
+}
+.img-row img{
+    vertical-align: top;
+    width: 375px;
+    margin: 2rem;
+    margin-right: 2rem;
+    margin-left: 0;
+}
